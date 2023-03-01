@@ -1,4 +1,3 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
 
 # EJERCICIO 2
 
@@ -6,12 +5,13 @@
 $$   \sum_{i=1}^n \left(x_i-\overline{\rm x}\right)^2 = \min_{a\in {\rm \!R}} \sum_{i=1}^n(x_i-a)^2 $$
 
 
-Definimos una función 
+# Se define la función:
 $$ g(a) = \sum_{i=1}^n(x_i-a)^2 $$ 
-buscamos su derivada 
-$$ g'(a) = -2 \sum_{i=1}^{n}(x_i-a) $$ 
-e igualamos a cero:
 
+# Se calcula su derivada 
+$$ g'(a) = -2 \sum_{i=1}^{n}(x_i-a) $$ 
+
+# e igualando a cero:
 $$\begin{gather*}
 -2 \sum_{i=1}^n(x_i-a) = 0 \\
 \sum_{i=1}^n x_i - \sum_{i=1}^n a = 0 \\
